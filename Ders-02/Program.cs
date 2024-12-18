@@ -101,8 +101,60 @@ namespace Ders_02
 
             #region Klaveyden Tam Sayı Girişleri ve Dönüşümler
 
+            //int shoePrice, computerPrice, chairPrice, tvPrice;
+
+            //shoePrice = 1000;
+            //computerPrice = 20000;
+            //chairPrice = 5000;
+            //tvPrice = 12000;
+
+            //int shoeCount, computerCount, chairCount, tvCount;
+
+            //Console.WriteLine("Lütfen aldığınız ayakkabı sayısını giriniz: ");
+            //shoeCount = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Lütfen aldığınız bilgisayar sayısını giriniz: ");
+            //computerCount = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Lütfen aldığınız sandalye sayısını giriniz: ");
+            //chairCount = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Lütfen aldığınız televizyon sayısını giriniz: ");
+            //tvCount = int.Parse(Console.ReadLine());
+
+            //int totalPrice = (shoeCount * shoePrice) + (computerCount * computerPrice) + (chairCount * chairPrice) + (tvCount * tvPrice);
+
+            //Console.WriteLine();
+            //Console.WriteLine("Toplam ödemeniz gereken tutar: " + totalPrice);
+
+            #endregion
+
+            #region Klavyeden ondalıklı sayı işlemleri
+            //double exam1, exam2, exam3, result;
+
+            //Console.Write("Lütfen birinci sınav notunu giriniz: ");
+            //exam1 = double.Parse(Console.ReadLine());
+
+            //Console.Write("Lütfen ikinci sınav notunu giriniz: ");
+            //exam2 = double.Parse(Console.ReadLine());
+
+            //Console.Write("Lütfen üçüncü sınav notunu giriniz: ");
+            //exam3 = double.Parse(Console.ReadLine());
+
+            //result = (exam1 + exam2 + exam3) / 3;
+            //Console.WriteLine();
+            //Console.Write("Dönem sonu notu: " + result);
 
 
+            #endregion
+
+            #region Klavyeden karakter girişleri
+
+            char gender;
+            Console.Write("Lütfen cinsiyet seçiniz: ");
+            gender = char.Parse(Console.ReadLine());
+
+            Console.WriteLine("Seçtiğiniz cinsiyet: " + gender);
 
 
             #endregion
